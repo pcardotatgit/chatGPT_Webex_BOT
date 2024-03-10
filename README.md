@@ -18,9 +18,11 @@ Second You must have an account to a OPENAI ( at openai.com ) and you must have 
 
 ## Run the bot
 
-First edit the **config.txt** file and assign the correct values to the empty variables.  
+First edit the **config.txt** file and assign the correct values to the empty variables.  DON'T USE QUOTES ! in the variable declarations !!
 
-DON'T USE QUOTES ! in the variable declarations !!
+From a CMD console openned into the application folder into your laptop run the app.y script :
+
+    python app.py
 
 Then go to your Webex client and open a conversation with the bot if not already done.
 
@@ -29,6 +31,9 @@ Then send : **Hello**.
 You are supposed to receive an **Hello, How can I help You today** answer from the Bot.
 
 Then you can chat with it.
+
+You can check the conversation into the bot console
+
 
 ## Installation
 
