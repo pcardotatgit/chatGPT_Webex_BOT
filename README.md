@@ -12,9 +12,9 @@ First, You must have a Webex Bot.
 
 Follow the instructions here in order to create one : [Create_a_Webex_bot_for_XDR_Alerts](https://github.com/pcardotatgit/Create_a_Webex_bot_for_XDR_Alerts)
 
-Second You must have an account to a OPENAI ( at openai.com ) and you must have created an API key.
+Second You must have an account to OPENAI ( at openai.com ) and you must have created an API key.
 
-**Notice** the script work with a GPT version you would have installed into a local server. If so, then change the GPT_URL into the config.txt file
+**Notice** : the script work with a GPT version you would have installed into a local server. If so, then change the GPT_URL into the config.txt file
 
 ## Run the bot
 
@@ -122,3 +122,10 @@ Or you can install required modules separatly :
 
 **Done ! you are ready to run the bot**
 
+## You want to extend conversation capabilities with your webex bot
+
+This Proof Of Concept use only chatGPT as conversation backend.   You can extend your bot behaviors in order to make it react differentle depending on which messages are send into the Webex Room.
+
+For doing so , then edit the **gpt.py** script and go to the **exexute(..)** function into the **gpt()** class. At this location you can add some if statements that check the messages that are send by users into the room ( and then trigger customized actions ).
+
+The variable to check here is the **message** variable. 
