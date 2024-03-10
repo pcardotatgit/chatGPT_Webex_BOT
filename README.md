@@ -126,6 +126,6 @@ Or you can install required modules separatly :
 
 This Proof Of Concept use only chatGPT as conversation backend.   You can extend your bot behaviors in order to make it react differentle depending on which messages are send into the Webex Room.
 
-For doing so , then edit the **gpt.py** script and go to the **exexute(..)** function into the **gpt()** class. At this location you can add some if statements that check the messages that are send by users into the room ( and then trigger customized actions ).
+For doing so , then edit the **gpt.py** script and go to the **exexute(..)** function into the **gpt()** class. At this location you can add some if statements that check the messages that are sent by users into the room ( and then trigger customized actions ).
 
 The variable to check here is the **message** variable. 
